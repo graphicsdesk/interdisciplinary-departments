@@ -10,7 +10,6 @@ $fade-transition-duration: 0.25s;
 
 body {
   margin: 0;
-  padding-bottom: 40px; 
 }
 
 h1, p {
@@ -47,7 +46,7 @@ b {
   margin-bottom: 0px;
   
   header {
-    background-color: rgba(0, 0, 0, 0.54);
+    background-color: rgba(0, 0, 0, 0.6);
     max-width: 660px;
     transform: translateY(-150%); // TODO: do better;
     align-items: center;
@@ -141,7 +140,7 @@ header {
 
 @media (max-width: 500px) {
   header .headline {
-    font-size: 40px;
+    font-size: 46px;
     margin-bottom: 7px;
   }
 }
@@ -157,7 +156,8 @@ header {
     font-weight: 600;
     font-family: $graphik;
     font-size: 16px;
-    line-height: 1.6;    
+    line-height: 1.7;
+    text-align: center;
   }
 
   a {
@@ -306,7 +306,7 @@ header {
 }
 
 // Collapse navbar
-@media (max-width: 660px) {
+@media (max-width: 760px) {
   #navbar {
     flex-direction: column;
   }
