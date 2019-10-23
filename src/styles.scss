@@ -10,3 +10,9 @@ header {
     margin-bottom: 0;
   }
 }
+
+@media (max-height: 660px) {
+  .cover-hed header {
+    transform: translateY(-125%);
+  }
+}

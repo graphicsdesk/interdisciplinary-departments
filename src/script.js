@@ -8,7 +8,7 @@ import { USE_COVER_HED } from '../config.yml';
 const navbar = document.getElementById('navbar');
 enterView({
   selector: USE_COVER_HED ? '.headline' : '.step-deck',
-  offset: USE_COVER_HED ? 0.92 : 0.957,
+  offset: USE_COVER_HED ? 0.66 : 0.957,
   enter: () => {
     navbar.classList.remove('only-logo');
   },
@@ -26,7 +26,7 @@ export function hamburgerTrigger() {
 
 // Text balance headline and deck
 
-textBalancer.balanceText('.headline, .deck, .image-overlay .image-caption');
+textBalancer.balanceText('.headline, .deck, .image-overlay .g-image-caption');
 
 /* SVG icon stuff
 
