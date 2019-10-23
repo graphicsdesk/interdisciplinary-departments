@@ -8,7 +8,7 @@ import { USE_COVER_HED } from '../config.yml';
 const navbar = document.getElementById('navbar');
 enterView({
   selector: USE_COVER_HED ? '.headline' : '.step-deck',
-  offset: USE_COVER_HED ? 0.9 : 0.957,
+  offset: USE_COVER_HED ? 0.92 : 0.957,
   enter: () => {
     navbar.classList.remove('only-logo');
   },
