@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "enter-view": "^2.0.0",
+    "parcel-plugin-inliner": "^1.0.10",
     "text-balancer": "^1.0.5"
   }
 }
