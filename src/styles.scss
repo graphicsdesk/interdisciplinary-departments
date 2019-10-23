@@ -1,6 +1,12 @@
 @import 'styles/spectate';
 @import 'styles/eye-lead-ellipsis';
 
-header .headline {
+header {
+  .headline {
     margin-top: 0;
+  }
+
+  .pub-date {
+    margin-bottom: 0;
+  }
 }

@@ -47,17 +47,12 @@ b {
   margin-bottom: 60px;
 
   header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.58);
     max-width: 660px;
     transform: translateY(-150%); // TODO: do better;
     align-items: center;
 
-    .headline {      
-      color: #fff;
-    }
-
-    .byline, .byline a {
-      text-align: center;   
+    .headline, p, .byline a {      
       color: #fff;
     }
   }
